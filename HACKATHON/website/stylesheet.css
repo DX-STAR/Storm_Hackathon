@@ -1,0 +1,79 @@
+/* Customize background styling */
+
+body {
+  background-image: url("bgimg.jpg");
+
+  /* Change background colors as desired */
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px;
+}
+
+/* Center align the input box and text */
+.center-box {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Style the input box */
+.custom-input {
+  width: 300px;
+  padding: 10px;
+}
+
+#input {
+  display: block;
+  margin: 0 auto;
+  /* Center horizontally */
+  text-align: center;
+  /* Center text within the input */
+  margin: auto;
+  left: auto;
+  border-width: 2px;
+  border-color: rgb(30, 30, 255);
+  height: 70px;
+  width: 1000px;
+  border-radius: 7px;
+
+}
+
+.dialog {
+  background-color: azure;
+  height: auto;
+  width: 600px;
+  align-content: center;
+  margin-top: 100px;
+  margin-left: 30%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  height: 86px;
+  padding-top: 12px;
+}
+
+#element.style {
+  height: 86px;
+  padding-top: 12px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin: auto;
+  left: auto;
+  border-width: 2px;
+  border-color: rgb(30, 30, 255);
+  height: 70px;
+  width: 1000px;
+  border-radius: 7px;
+}

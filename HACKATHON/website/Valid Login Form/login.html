@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="mainform">
+			<h1 class="label">User Login</h1>
+			<img src="logo.jpg" alt="CodeX" style="height: 80px; width: 180px; margin-left: 135px;">
+			<form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+				<div class="font">Email or Phone</div>
+				<input autocomplete="off" type="text" name="email">
+				<div id="email_error">Please fill up your Email or Phone</div>
+				<div class="font font2">Password</div>
+				<input type="password" name="password">
+				<div id="pass_error">Please fill up your Password</div>
+
+				<div class="options">
+					<a href="blank">forgot password?</a>
+					<a href="signup.html" id="donthaveacc">Don't have an account?</a>
+				</div>
+				<a href="Webpage.html">
+				<button type="submit">Login</button>
+				</a>
+			</label>
+				<!-- <label class="rem">Remember Me:<input type="checkbox" id="rememberMe">
+				</label> -->
+			</form>
+		</div>
+	</div>
+	<script src="valid.js"></script>
+</body>
+
+</html>
